@@ -1,0 +1,19 @@
+name: intelex_bench
+channels:
+  - intel
+  - conda-forge
+dependencies:
+  - intel::scikit-learn-intelex=2023.2.0
+  - intel::dpcpp_cpp_rt=2023.2.0
+  - intel::dpctl
+  - intel::daal4py
+  - conda-forge::libgomp=12.2 # For use on Ubuntu Jammy with Kernel 6.2
+  - conda-forge::libstdcxx-ng=12.2 # For use on Ubuntu Jammy with Kernel 6.2
+  - conda-forge::libgcc-ng=12.2 # For use on Ubuntu Jammy with Kernel 6.2
+  - intel::numpy=1.19.5
+  - glob2
+  - tqdm
+  - python=3.9
+  - pandas=1.4.1
+  - ruff
+  - black

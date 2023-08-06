@@ -1,0 +1,15 @@
+name: rapids_bench
+channels:
+  - rapidsai
+  - nvidia
+  - conda-forge
+dependencies:
+  - rapids=23.06
+  - cudatoolkit=11.8
+  - numpy
+  - glob2
+  - tqdm
+  - python=3.9
+  - pandas
+  - ruff
+  - black
